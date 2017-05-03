@@ -1,5 +1,5 @@
 {
-  "apiPrefix": "https://jamaurznightlifeapp.herokuapp.com",
+  "apiPrefix": "https://jamaurznightlifecoordination.herokuapp.com",
   "serverPort": "8080",
   "db":{
     "name": "app",
