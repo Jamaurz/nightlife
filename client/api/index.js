@@ -5,21 +5,21 @@ var apiPrefix = 'https://jamaurznightlifecoordination.herokuapp.com';
 
 export default {
     add(eventName) {
-        return axios.post(apiPrefix + '/add', {'event': eventName});
+        return axios.post('https://jamaurznightlifecoordination.herokuapp.com/add', {'event': eventName});
     },
     searchAddressCoord(city) {
-        return axios.post(apiPrefix + '/city', {'city': city});
+        return axios.post('https://jamaurznightlifecoordination.herokuapp.com/city', {'city': city});
     },
     singIn() {
         return axios.get('https://jamaurznightlifecoordination.herokuapp.com/info')
     },
     infoCity() {
-        return axios.get(apiPrefix + '/infocity')
+        return axios.get('https://jamaurznightlifecoordination.herokuapp.com/infocity')
     },
     getEvent() {
-       return axios.get(apiPrefix + '/getevent');
+       return axios.get('https://jamaurznightlifecoordination.herokuapp.com/getevent');
     },
     getEventG(location) {
-       return axios.post(apiPrefix + '/geteventg', {lat: location.lat, lng: location.lng});
+       return axios.post('https://jamaurznightlifecoordination.herokuapp.com/geteventg', {lat: location.lat, lng: location.lng});
     }
 }
