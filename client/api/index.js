@@ -11,7 +11,7 @@ export default {
         return axios.post(apiPrefix + '/city', {'city': city});
     },
     singIn() {
-        return axios.get(apiPrefix + '/info')
+        return axios.get('https://jamaurznightlifecoordination.herokuapp.com/info')
     },
     infoCity() {
         return axios.get(apiPrefix + '/infocity')
