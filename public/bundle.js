@@ -17980,7 +17980,7 @@ Object.defineProperty(exports, "__esModule", {
 var axios = __webpack_require__(159);
 
 //import { apiPrefix } from '../../etc/config.json';
-var apiPrefix = 'https://nightlife-jamaurz.c9users.io';
+var apiPrefix = 'https://jamaurznightlifecoordination.herokuapp.com';
 
 exports.default = {
     add: function add(eventName) {
