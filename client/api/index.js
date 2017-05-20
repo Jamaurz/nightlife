@@ -1,7 +1,7 @@
 var axios = require('axios');
 
 //import { apiPrefix } from '../../etc/config.json';
-var apiPrefix = 'https://jamaurznightlifecoordination.herokuapp.com';
+var apiPrefix = 'https://jamaurznightlife.herokuapp.com';
 
 export default {
     add(eventName) {
