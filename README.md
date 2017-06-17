@@ -8,4 +8,4 @@
 
 * User Story: As an unauthenticated user, when I login I should not have to search again.
 
-## Heroku https://jamaurznightlife.herokuapp.com/#/
+## Heroku http://jamaurznightlife.herokuapp.com/#/
